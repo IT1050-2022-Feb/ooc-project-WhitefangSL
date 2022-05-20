@@ -1,0 +1,16 @@
+class premiumUser:public user{
+
+	private:
+		int premiumUserID;
+
+	public:
+		void  setDetails(int Puid, string Puname, string Puaddress, string Puemail, int Putel);
+		void displayDetails();
+		void setPassword();
+		string getName();
+		string getAddress();
+		string getEmail();
+		int getTel();
+		void searchRecipes();
+		    
+};
